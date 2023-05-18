@@ -42,16 +42,14 @@ class _CalQState extends State<CalQ> {
         output = finalValue.toString();
       }
     }
-    else if(value=="😘"){
-      input="i love you ";
-          output="111213";
+    else if(value=="🤟🏻"){
+      input="Hi, there this is ";
+          output="CalQ";
     }
 
       else{
       input= input + value;
-      if(input=="13+12+11"){
-        output="MLK";
-      }
+
     }
     setState(() {});
   }
@@ -103,7 +101,7 @@ class _CalQState extends State<CalQ> {
               button(text: "<<",
                   buttonBgColor: 0xff393333,
                   tColor: Colors.orange),
-              button(text: "😘",
+              button(text: "🤟🏻",
                   buttonBgColor: 0x000000),
               button(
                   text: "/", tColor: Colors.orange, buttonBgColor: 0xff393333),
